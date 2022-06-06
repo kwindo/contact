@@ -1,0 +1,27 @@
+{
+    "name": "kimdevylder/contact",
+    "description": "Contact description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kim De Vylder",
+            "email": "kim.devylder@sanka.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Kimdevylder\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kimdevylder\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
